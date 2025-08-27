@@ -1,0 +1,55 @@
+/* Background gradient */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card glassmorphism */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 30px;
+  width: 800px;
+  max-width: 95%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Form style */
+.card input,
+.card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.card input:focus,
+.card textarea:focus {
+  box-shadow: 0 0 8px #00c6ff;
+}
+
+/* Button */
+.card button {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+}
