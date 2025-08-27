@@ -1,3 +1,9 @@
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+{ "homepage": "https://4vinnn.github.io/Qris-converter" },
 {
   "name": "qris-converter",
   "private": true,
